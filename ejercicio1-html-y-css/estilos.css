@@ -1,0 +1,31 @@
+body{
+    background: #3399ff;
+  }
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+h2{
+    color: rgb(250, 246, 246);
+    font-size: 30px;
+}
+h3{
+    color: rgb(253, 253, 253);
+    font-size: 30px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+ul{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+ol{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
