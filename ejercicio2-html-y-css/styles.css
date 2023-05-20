@@ -1,0 +1,79 @@
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+-webkit-box-align: 10px 10px 5px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h2 {
+    text-align: left;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+
+
+  }
+
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    padding: 7px;
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 5px 15px;
+    align-self: flex-end;
+    background-color: white;
+    color: #6b4cf5;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+    left: 220px;
+  }
+  
+  @media (min-width: 500px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+  select {
+    padding: 7px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .toggle-password {
+    position: relative;
+    top: -25px;
+    right: -261px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #6b4cf5;
+  }
+  
